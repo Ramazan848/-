@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #ffe2b0;
+}
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+nav {
+    margin-bottom: 20px;
+    text-align: center;
+}
+a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    text-decoration: none;
+font-size: 18px;
+ font-weight: 500;
+ margin-right: 100px;
+}
+a:last-child {
+    margin-right: 0;
+}
+.section-about {
+    margin-bottom: 20px;
+ height: 640px;
+background-image: url(../img/01-Картинка-фона.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+.section-about__block {
+    padding-top: 15px;
+    padding-left: 15px;
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(244,213,178,0.8) 0%, rgba(234,156,65,0.8)) ;
+    height: 190px;
+    width: 420px;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+}
+.section-about__border {
+
+    border: 1px solid black;
+     height: 160px;
+     width: 390px;
+     padding-top: 17px;
+    padding-left: 28px;
+}
+.section-about__title {
+    margin-bottom: 9px;
+    font-family: "Philosopher", sans-serif;
+    font-size: 36px;
+}
+.section-about__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+.section-description__icons-box {
+text-align: center;
+}
+.section-description__icons-box img {
+    margin-right: 76px;
+}
+.section-description__icons-box img:last-child {
+    margin-right: 0;
+}
+.section-description__title {
+    margin-bottom: 20px;
+    font-size: 96px;
+    font-family: "Philosopher", sans-serif;
+text-align: center;
+}
+.section-description__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    width: 1000px;
+    margin: 0 auto;   
+}
+.red {
+    color: #f15b40;
+}
+.section-description {
+    margin-bottom: 20px;
+}
